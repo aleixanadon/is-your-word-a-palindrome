@@ -24,11 +24,12 @@ header {
 main {
     display: flex;
     justify-content: center;
-    align-items: center; /* Añadido para centrar verticalmente */
-    flex: 1; /* Añadido para ocupar el espacio disponible */
-    margin: auto;
+    align-items: center;
     flex-direction: column;
     gap: 2em;
+    flex: 1;
+    margin: auto;
+    height: 100vh;
 }
 
 input {
@@ -47,7 +48,6 @@ input:focus {
 footer {
     background-color: var(--bg-color);
     padding: 1em;
-    margin-top: auto;
     display: flex;
     gap: 1.5em;
 }
