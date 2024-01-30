@@ -1,1 +1,1 @@
-# is-your-word-a-palindrome
+# Simple web aplication to check if user's input word is a palindrome
