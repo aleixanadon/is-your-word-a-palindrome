@@ -10,11 +10,6 @@ body {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
-header, footer {
-    display: flex;
-    justify-content: center;
-}
-
 header {
     background-color: var(--bg-color);
     padding: 1em;
@@ -29,7 +24,6 @@ main {
     gap: 2em;
     flex: 1;
     margin: auto;
-    height: 100vh;
 }
 
 input {
@@ -50,6 +44,9 @@ footer {
     padding: 1em;
     display: flex;
     gap: 1.5em;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
 }
 
 @media only screen and (max-width: 767px) {
